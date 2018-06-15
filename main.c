@@ -25,6 +25,10 @@ int main()
         char thread2[] = "Thread_B";
         char thread3[] = "Thread_C";
         void * result_t = NULL;
+        /*for github test, so this is trash*/
+        printf("Plz Enter any key....\n");
+        getchar();
+
         /*
          * sem_init(sem_t *sem, int pshared, unsigned int value);
          *
