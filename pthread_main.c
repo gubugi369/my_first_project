@@ -9,7 +9,7 @@ int number = 0; //일반출력변수
 sem_t bin_sem;  //세마포어 생성
 void *sem_snd(void *arg);
 void *sem_rev(void *arg);
-int pthread_main()
+int pthread_test_main()
 {
         int state = 0;
         pthread_t t1,t2,t3; //3개의 스레드 선언
