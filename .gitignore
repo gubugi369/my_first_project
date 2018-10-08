@@ -1,6 +1,4 @@
 *.out
 *.bin
 *.exe
-*.cson
-*.json
 *.o
